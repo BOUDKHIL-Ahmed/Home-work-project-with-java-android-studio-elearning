@@ -4,7 +4,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="20dp">
+    android:padding="20dp"
+    android:background="@color/white"
+    >
 
     <TextView
         android:layout_width="wrap_content"
@@ -12,6 +14,8 @@
         android:text="Computer Networks"
         android:textSize="22sp"
         android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
         android:layout_marginBottom="30dp"/>
 
     <Button
@@ -19,6 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Explore IP Addressing"
+        android:backgroundTint="@color/btn_bg_cl"
+        android:textColor="@color/white"
         android:layout_marginBottom="15dp"/>
 
     <Button
@@ -26,6 +32,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Explore Routing"
+        android:backgroundTint="@color/btn_bg_cl"
+        android:textColor="@color/white"
         android:layout_marginBottom="15dp"/>
 
     <Button
@@ -33,6 +41,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="About Developer"
-        style="@style/Widget.AppCompat.Button.Colored"/>
+        android:textColor="@color/white"
+        android:backgroundTint="@color/btn_bg_cl"
+       />
 
 </LinearLayout>

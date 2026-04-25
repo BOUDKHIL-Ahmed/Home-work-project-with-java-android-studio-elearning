@@ -1,38 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center_horizontal"
-    android:padding="20dp"
-    android:background="#F5F5F5">
+    android:background="#FFFFFF">
 
-    <ImageView
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:src="@drawable/developer_photo"
-        android:layout_marginTop="30dp"
-        android:contentDescription="Developer Photo" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Developer Profile"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:layout_marginTop="15dp" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#CCCCCC"
-        android:layout_marginVertical="15dp" />
-
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Name: [Your Name(s)]\nLevel: L3 Computer Science\nSpecialty: Computer Systems\nUniversity: Ahmed Zabana, Relizane"
-        android:textSize="16sp"
-        android:lineSpacingExtra="8dp" />
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="20dp">
 
-</LinearLayout>
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/developer_photo"
+            android:layout_marginTop="20dp"
+            android:contentDescription="Group Photo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developer Profiles"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/btn_bg_cl"
+            android:layout_marginTop="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/btn_bg_cl"
+            android:layout_marginVertical="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. BOUDKHIL AHMED (Lead)\nLevel: L3 Computer Science\nSpecialty: Computer Systems\nContribution: App Architecture &amp; Logic"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. BENSLIMANE Abdessamed\nLevel: L3 Computer Science\nSpecialty: Computer Systems\nContribution: UI/UX &amp; Resource Management"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. ADJEL Naidr\nLevel: L3 Computer Science\nSpecialty: Computer Systems\nContribution: Animation Development"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. GACEM Yasser\nLevel: L3 Computer Science\nSpecialty: Computer Systems\nContribution: Content &amp; Documentation"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. BOUHALIS Amine\nLevel: L3 Computer Science\nSpecialty: Computer Systems\nContribution: Testing &amp; Bug Fixing"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. BENMARYEM Ines\nLevel: L3 Computer Science\nSpecialty: Computer Systems\nContribution: Multimedia &amp; Video Production"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginBottom="20dp" />
+
+    </LinearLayout>
+</ScrollView>

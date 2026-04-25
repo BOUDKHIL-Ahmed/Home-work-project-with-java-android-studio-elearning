@@ -2,19 +2,24 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="@color/white"
+    >
 
     <LinearLayout
         android:id="@+id/content_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+
+        >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Concept 1: IP Addressing"
             android:textSize="24sp"
+            android:textColor="@color/btn_bg_cl"
             android:textStyle="bold"
             android:layout_gravity="center"
             android:layout_marginBottom="20dp" />
@@ -31,6 +36,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="An IP address is a unique string of characters that identifies each computer using the Internet Protocol to communicate over a network."
+            android:textColor="@color/black"
             android:textSize="16sp"
             android:lineSpacingExtra="4dp" />
 

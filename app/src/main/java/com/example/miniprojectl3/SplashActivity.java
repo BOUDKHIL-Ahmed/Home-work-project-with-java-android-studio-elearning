@@ -10,13 +10,14 @@ public class SplashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        // Changed from activity_splash to splash_activity to match your custom layout
+        setContentView(R.layout.splash_activity);
 
         // Use Handler to create a 2-second delay
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                // Trigger Intent to start Activity 2 (Menu) [cite: 12, 13]
+                // Trigger Intent to start MenuActivity
                 Intent intent = new Intent(SplashActivity.this, MenuActivity.class);
                 startActivity(intent);
 
